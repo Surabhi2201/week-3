@@ -2,9 +2,9 @@
 int main()
 {
 int a,b;
-printf("Even number upto-");
+printf("Even number upto:-");
 scanf("%d",&b);
-for(int a=1; a<b; a++)
+for(int a=1; a<=b; a++)
  {
  	if (a%2==0)
  	 printf("%d\n",a);
