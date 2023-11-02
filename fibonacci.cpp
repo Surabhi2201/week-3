@@ -12,6 +12,6 @@ int main()
 	  b=s; 
 	 }
 	printf("%d",s);
-	
+	return(0);
 	
 }
