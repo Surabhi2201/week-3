@@ -6,10 +6,10 @@ int main()
 	printf("Enter a number :");
 	scanf("%d",&n);
 	int sum=0;
-	while(n>x)
+	while(n>0)
 	{
 		
-	 int last=n%(x*2);
+	 int last=n%10;
 	 sum=sum+last*x;
 	 x=x*2;
 	 n=n/10;
